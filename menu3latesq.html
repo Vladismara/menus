@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Menu com css">
+	<title> Menu Lateral Esquerda </title>
+	<style type="text/css">
+		#menu ul {
+			padding:0px;
+			margin:0px;
+			background-color:#EDEDED;
+			list-style:none; /*tira a bolinha da lista*/
+			float:left; /*posiciona a esquerda da tela*/
+			width: 15%; /*largura do menu*/
+			font-family: Calibri;
+		}
+
+		#menu ul li a { /* tira o efeito do link e muda o visual*/
+			padding: 5px 20px 5px 20px;
+			display: inline-block;
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			line-height: 1.5;
+		}
+
+		#menu ul li a:hover { /*efeito hover: ao passar o mouse altera estilo*/
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom: 1px solid #6495ED;
+			font-family: Helvetica;
+			font-style: bold;
+		}
+
+
+		</style>
+</head>
+<body>
+	<nav id="menu">
+	<ul>
+		<li><a href="#">Produtos </a></li>
+		<li><a href="#">Bate Papo </a></li>
+		<li><a href="#">Notícias </a></li>
+		<li><a href="#">Carros </a></li>
+		<li><a href="#">Economia</a></li>
+		<li><a href="#">Folha </a></li>
+		<li><a href="#">Esportes </a></li>
+
+	</ul>
+	</nav>
+</body>
+</html>
